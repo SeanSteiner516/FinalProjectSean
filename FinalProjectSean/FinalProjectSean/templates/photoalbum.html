@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+
+<table style="width:100%; background-image: url("static/images/StarWars.jpg")>
+    <tr>
+        <td><img src="static/images/X-Wing.png" width="65%" /></td>
+        <td><img src="static/images/Y-Wing.jpg" width="100%" /></td>
+        <td><img src="static/images/Mellinium-Falcon.jpg" width="50%"/></td>
+    </tr>
+    <tr>
+        <td><img src="static/images/TieFighter-inceptor.jpg" width="65%" /></td>
+        <td><img src="static/images/Tie-Fighter-intereceptor.jpg" width="100%" /></td>
+        <td><img src="static/images/Kylo.png" width="50%" /></td>
+    </tr>
+</table>
+
+{% endblock %}
